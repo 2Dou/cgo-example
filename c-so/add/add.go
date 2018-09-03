@@ -3,7 +3,7 @@ package add
 //#cgo CFLAGS: -I./
 //#cgo LDFLAGS: -L${SRCDIR}/ -L./ -ladd
 //
-//#include "add.h"
+//#include "src/add.h"
 import "C"
 
 func Add(a, b int) int {
