@@ -6,4 +6,4 @@ c-lib: main.go ./add/libadd.a
 	cd ..
 
 clean:
-	rm ./c-lib ./add/*.o ./add/*.a
+	rm ./c-lib ./add/*.a
